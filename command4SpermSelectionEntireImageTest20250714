@@ -1,0 +1,25 @@
+###
+ # @Author: SimonHanYANG SimonCK666@163.com
+ # @Date: 2025-07-14 10:27:53
+ # @LastEditors: SimonHanYANG SimonCK666@163.com
+ # @LastEditTime: 2025-07-14 22:31:58
+ # @FilePath: /UNeXt-pytorch/command4SpermSelectionEntireImageTest20250714
+ # @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+### 
+python val-folder.py --name ENet_sperm_NAHeadLatest250610_0610 --val_folder "inputs/Sperm_Selection_Video_Test/Basler acA1920-155ucMED (40214438)_20241105_115426118" --output_size 1920,1200
+
+python val-folder.py --name ENet_sperm_NAHeadLatest250610_0610 --val_folder "inputs/Sperm_Selection_Video_Test/Basler_acA1920-155ucMED_(40214438)_20241105_115540765" --output_size 1920,1200
+
+python val-folder.py --name ENet_sperm_NAHeadLatest250610_0610 --val_folder "inputs/Sperm_Selection_Video_Test/Basler_acA1920-155ucMED_(40214438)_20241105_115725389" --output_size 1920,1200
+
+python val-folder.py --name ENet_sperm_NAHeadLatest250610_0610 --val_folder "inputs/Sperm_Selection_Video_Test/Basler_acA1920-155ucMED_(40214438)_20241105_120006677" --output_size 1920,1200
+
+python val-folder.py --name ENet_sperm_NAHeadLatest250610_0610 --val_folder "inputs/Sperm_Selection_Video_Test/Basler_acA1920-155ucMED_(40214438)_20241105_121044198" --output_size 1920,1200
+
+python val-folder.py --name ENet_sperm_NAHeadLatest250610_0610 --val_folder "inputs/Sperm_Selection_Video_Test/Basler_acA1920-155ucMED_(40214438)_20241105_121237814" --output_size 1920,1200
+
+
+
+
+
+

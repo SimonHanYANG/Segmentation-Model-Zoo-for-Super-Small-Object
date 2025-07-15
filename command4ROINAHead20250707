@@ -1,0 +1,95 @@
+###
+ # @Author: SimonHanYANG SimonCK666@163.com
+ # @Date: 2025-06-04 10:39:33
+ # @LastEditors: SimonHanYANG SimonCK666@163.com
+ # @LastEditTime: 2025-07-07 19:56:04
+ # @FilePath: /UNeXt-pytorch/command4laserTail
+ # @Description: train commands for laser tail localization
+### 
+20250707-UNeXt-ROI-NA-dataset
+
+# *UNeXt
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch UNext --name sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# *ADSCNet 
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch ADSCNet --name ADSCNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# *CGNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch CGNet --name CGNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# *DDRNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch DDRNet --name DDRNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# *EDANet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch EDANet --name EDANet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# **ENet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch ENet --name ENet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch ENet --name ENet_sperm_NAHead_laser_0610  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+
+# ===
+# ESNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch ESNet --name ESNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+
+# ===
+# ESPNetv2 0707
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch ESPNetv2 --name ESPNetv2_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# FANet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch FANet --name FANet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# FarSeeNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch FarSeeNet --name FarSeeNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# FastSCNN
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch FastSCNN --name FastSCNN_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# FDDWNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch FDDWNet --name FDDWNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# FSSNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch FSSNet --name FSSNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# ICNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch ICNet --name ICNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# LEDNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch LEDNet --name LEDNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# LinkNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch LinkNet --name LinkNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# LiteHRNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch LiteHRNet --name LiteHRNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# MiniNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch MiniNet --name MiniNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# PPLiteSeg
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch PPLiteSeg --name PPLiteSeg_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# RegSeg
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch RegSeg --name RegSeg_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# SegNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch SegNet --name SegNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# ShelfNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch ShelfNet --name ShelfNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# SQNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch SQNet --name SQNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# SwiftNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch SwiftNet --name SwiftNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# UNet
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch UNet --name UNet_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+# UNetPlusPlus
+python train.py --dataset 20250707-UNeXt-ROI-NA-dataset --arch UNetPlusPlus --name UNetPlusPlus_sperm_ROINAHead_250707  --img_ext .png --mask_ext .png --batch_size 8 --cuda cuda:0 --input_w 64 --input_h 64 --num_classes 4 
+
+

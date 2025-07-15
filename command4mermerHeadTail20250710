@@ -1,0 +1,95 @@
+###
+ # @Author: SimonHanYANG SimonCK666@163.com
+ # @Date: 2025-06-04 10:39:33
+ # @LastEditors: SimonHanYANG SimonCK666@163.com
+ # @LastEditTime: 2025-07-10 11:45:46
+ # @FilePath: /UNeXt-pytorch/command4laserTail
+ # @Description: train commands for laser tail localization
+### 
+20250710_mermer_dataset
+
+# *UNeXt
+python train.py --dataset 20250710_mermer_dataset --arch UNext --name UNeXt_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# *ADSCNet 
+python train.py --dataset 20250710_mermer_dataset --arch ADSCNet --name ADSCNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# *CGNet
+python train.py --dataset 20250710_mermer_dataset --arch CGNet --name CGNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# *DDRNet
+python train.py --dataset 20250710_mermer_dataset --arch DDRNet --name DDRNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# *EDANet
+python train.py --dataset 20250710_mermer_dataset --arch EDANet --name EDANet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# **ENet
+python train.py --dataset 20250710_mermer_dataset --arch ENet --name ENet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# python train.py --dataset 20250710_mermer_dataset --arch ENet --name ENet_sperm_NAHead_laser_0610  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+
+# ===
+# ESNet
+python train.py --dataset 20250710_mermer_dataset --arch ESNet --name ESNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+
+# ===
+# ESPNetv2 0707
+python train.py --dataset 20250710_mermer_dataset --arch ESPNetv2 --name ESPNetv2_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# FANet
+python train.py --dataset 20250710_mermer_dataset --arch FANet --name FANet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# FarSeeNet
+python train.py --dataset 20250710_mermer_dataset --arch FarSeeNet --name FarSeeNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# FastSCNN
+python train.py --dataset 20250710_mermer_dataset --arch FastSCNN --name FastSCNN_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# FDDWNet
+python train.py --dataset 20250710_mermer_dataset --arch FDDWNet --name FDDWNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# FSSNet
+python train.py --dataset 20250710_mermer_dataset --arch FSSNet --name FSSNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# ICNet
+python train.py --dataset 20250710_mermer_dataset --arch ICNet --name ICNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# LEDNet
+python train.py --dataset 20250710_mermer_dataset --arch LEDNet --name LEDNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# LinkNet
+python train.py --dataset 20250710_mermer_dataset --arch LinkNet --name LinkNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# LiteHRNet
+python train.py --dataset 20250710_mermer_dataset --arch LiteHRNet --name LiteHRNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# MiniNet
+python train.py --dataset 20250710_mermer_dataset --arch MiniNet --name MiniNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# PPLiteSeg
+python train.py --dataset 20250710_mermer_dataset --arch PPLiteSeg --name PPLiteSeg_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# RegSeg
+python train.py --dataset 20250710_mermer_dataset --arch RegSeg --name RegSeg_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# SegNet
+python train.py --dataset 20250710_mermer_dataset --arch SegNet --name SegNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# ShelfNet
+python train.py --dataset 20250710_mermer_dataset --arch ShelfNet --name ShelfNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# SQNet
+python train.py --dataset 20250710_mermer_dataset --arch SQNet --name SQNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# SwiftNet
+python train.py --dataset 20250710_mermer_dataset --arch SwiftNet --name SwiftNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# UNet
+python train.py --dataset 20250710_mermer_dataset --arch UNet --name UNet_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+# UNetPlusPlus
+python train.py --dataset 20250710_mermer_dataset --arch UNetPlusPlus --name UNetPlusPlus_mermerHeadTail_0710  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1600 --input_h 1216 --num_classes 2 
+
+

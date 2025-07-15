@@ -1,0 +1,25 @@
+###
+ # @Author: SimonHanYANG SimonCK666@163.com
+ # @Date: 2025-06-19 14:54:27
+ # @LastEditors: SimonHanYANG SimonCK666@163.com
+ # @LastEditTime: 2025-06-21 11:23:25
+ # @FilePath: /UNeXt-pytorch/command4EntireSperm20250619
+ # @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+### 
+# *ADSCNet 
+python train.py --dataset 20250619-bw-entire-sperm --arch ADSCNet --name ADSCNet_entire_sperm_laser_0603  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# *CGNet
+python train.py --dataset 20250619-bw-entire-sperm --arch CGNet --name CGNet_entire_sperm_laser_0603  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# *DDRNet
+python train.py --dataset 20250619-bw-entire-sperm --arch DDRNet --name DDRNet_entire_sperm_laser_0603  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# *EDANet
+python train.py --dataset 20250619-bw-entire-sperm --arch EDANet --name EDANet_entire_sperm_laser_0603  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# **ENet
+python train.py --dataset 20250619-bw-entire-sperm --arch ENet --name ENet_entire_sperm_laser_0603  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# ESPNetv2
+python train.py --dataset 20250619-bw-entire-sperm --arch ESPNetv2 --name ESPNetv2_entire_sperm_laser_0603  --img_ext .png --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440

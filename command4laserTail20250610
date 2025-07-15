@@ -1,0 +1,106 @@
+###
+ # @Author: SimonHanYANG SimonCK666@163.com
+ # @Date: 2025-06-04 10:39:33
+ # @LastEditors: SimonHanYANG SimonCK666@163.com
+ # @LastEditTime: 2025-06-13 19:07:31
+ # @FilePath: /UNeXt-pytorch/command4laserTail
+ # @Description: train commands for laser tail localization
+### 
+
+# **FEDASNet
+python train.py --dataset processed_second_round_images --arch FEDASNet --name FEDASNet_sperm_tail_laser_0610  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --optimizer AdamW --lr 0.0005 --input_w 1920 --input_h 1440
+
+# python train.py --dataset sperm_tail_all --arch FEDASNet --name FEDASNet_all_sperm_tail_dataset_laser_0610  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --optimizer AdamW --lr 0.0005 --input_w 1920 --input_h 1440
+
+
+# *UNeXt
+python train.py --dataset processed_second_round_images --arch UNext --name sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# *ADSCNet 
+python train.py --dataset processed_second_round_images --arch ADSCNet --name ADSCNet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# CANet 0/
+python train.py --dataset processed_second_round_images --arch CANet --name CANet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# *CGNet
+python train.py --dataset processed_second_round_images --arch CGNet --name CGNet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# ContextNet 0/
+python train.py --dataset processed_second_round_images --arch ContextNet --name ContextNet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# *DDRNet
+python train.py --dataset processed_second_round_images --arch DDRNet --name DDRNet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# *EDANet
+python train.py --dataset processed_second_round_images --arch EDANet --name EDANet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# **ENet
+python train.py --dataset processed_second_round_images --arch ENet --name ENet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# ERFNet 0/
+python train.py --dataset processed_second_round_images --arch ERFNet --name ERFNet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+
+# ESNet
+python train.py --dataset processed_second_round_images --arch ESNet --name ESNet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+
+
+# ESPNetv2
+python train.py --dataset processed_second_round_images --arch ESPNetv2 --name ESPNetv2_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# FANet
+python train.py --dataset processed_second_round_images --arch FANet --name FANet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# FarSeeNet
+python train.py --dataset processed_second_round_images --arch FarSeeNet --name FarSeeNet_sperm_tail_laser_0603  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# FastSCNN
+python train.py --dataset processed_second_round_images --arch FastSCNN --name FastSCNN_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# FDDWNet
+python train.py --dataset processed_second_round_images --arch FDDWNet --name FDDWNet_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# FSSNet
+python train.py --dataset processed_second_round_images --arch FSSNet --name FSSNet_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# ICNet
+python train.py --dataset processed_second_round_images --arch ICNet --name ICNet_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# LEDNet
+python train.py --dataset processed_second_round_images --arch LEDNet --name LEDNet_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# LinkNet
+python train.py --dataset processed_second_round_images --arch LinkNet --name LinkNet_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# LiteHRNet
+python train.py --dataset processed_second_round_images --arch LiteHRNet --name LiteHRNet_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# MiniNet
+python train.py --dataset processed_second_round_images --arch MiniNet --name MiniNet_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# PPLiteSeg
+python train.py --dataset processed_second_round_images --arch PPLiteSeg --name PPLiteSeg_sperm_tail_laser_0604  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# RegSeg
+python train.py --dataset processed_second_round_images --arch RegSeg --name RegSeg_sperm_tail_laser_0605  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# SegNet
+python train.py --dataset processed_second_round_images --arch SegNet --name SegNet_sperm_tail_laser_0605  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# ShelfNet
+python train.py --dataset processed_second_round_images --arch ShelfNet --name ShelfNet_sperm_tail_laser_0605  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# SQNet
+python train.py --dataset processed_second_round_images --arch SQNet --name SQNet_sperm_tail_laser_0605  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# SwiftNet
+python train.py --dataset processed_second_round_images --arch SwiftNet --name SwiftNet_sperm_tail_laser_0605  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# UNet
+python train.py --dataset processed_second_round_images --arch UNet --name UNet_sperm_tail_laser_0605  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+# UNetPlusPlus
+python train.py --dataset processed_second_round_images --arch UNetPlusPlus --name UNetPlusPlus_sperm_tail_laser_0605  --img_ext .jpg --mask_ext .jpg --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440
+
+

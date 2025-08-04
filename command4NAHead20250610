@@ -2,12 +2,20 @@
  # @Author: SimonHanYANG SimonCK666@163.com
  # @Date: 2025-06-04 10:39:33
  # @LastEditors: SimonHanYANG SimonCK666@163.com
- # @LastEditTime: 2025-07-07 11:30:28
+ # @LastEditTime: 2025-07-28 14:59:10
  # @FilePath: /UNeXt-pytorch/command4laserTail
  # @Description: train commands for laser tail localization
 ### 
 20250610-UNeXt-measurable-head-Mask
 
+# Sperm EDANet
+python train.py --dataset 20250610-UNeXt-measurable-head-Mask --arch SpermEDANet --name SpermEDANet_sperm_NAHeadLatest250610_0728  --img_ext .jpg --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440 --num_classes 4 
+
+python train_spermEDA_feature_map.py --dataset 20250610-UNeXt-measurable-head-Mask --arch SpermEDANet --name SpermEDANet_sperm_NAHeadLatest250610_FeatureMap_0730  --img_ext .jpg --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440 --num_classes 4 
+
+
+# U2Net
+python train.py --dataset 20250610-UNeXt-measurable-head-Mask --arch U2Net --name U2Net_sperm_NAHeadLatest250610_0610  --img_ext .jpg --mask_ext .png --batch_size 1 --cuda cuda:0 --input_w 1920 --input_h 1440 --num_classes 4 
 
 # CaraNet
 python train.py --dataset 20250610-UNeXt-measurable-head-Mask --arch CaraNet --name CaraNet_sperm_NAHeadLatest250610_0610  --img_ext .jpg --mask_ext .png --batch_size 2 --cuda cuda:0 --input_w 1920 --input_h 1440 --num_classes 4 

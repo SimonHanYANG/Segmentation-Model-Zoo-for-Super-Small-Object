@@ -55,6 +55,9 @@ from model_zoo.u2net import U2Net, U2NetP
 # Sperm EDANet
 from model_zoo.spermedanet import SpermEDANet
 
+# UIUNet
+from model_zoo.uiunet import UIUNET, UIUNET_Light
+
 
 __all__ = ['UNext', 'ADSCNet', 'CANet', 'BiSeNetv2', 'CGNet', 'ContextNet', \
            'DDRNet', 'EDANet', 'ENet', 'ERFNet', 'ESNet', 'ESPNet', \
@@ -62,7 +65,7 @@ __all__ = ['UNext', 'ADSCNet', 'CANet', 'BiSeNetv2', 'CGNet', 'ContextNet', \
             'FPENet', 'FSSNet', 'LEDNet', 'LinkNet', 'LiteHRNet', \
             'MiniNet', 'MiniNetv2', 'PPLiteSeg', 'RegSeg', 'SegNet', \
             'ShelfNet', 'SQNet', 'SwiftNet', 'UNet', 'UNetPlusPlus', \
-            'CaraNet', 'PraNet', 'U2Net', 'U2NetP', 'SpermEDANet']
+            'CaraNet', 'PraNet', 'U2Net', 'U2NetP', 'SpermEDANet', 'UIUNET_Light']
 
 import timm
 from timm.models.layers import DropPath, to_2tuple, trunc_normal_
